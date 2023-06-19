@@ -1,7 +1,7 @@
 let dict = {};
 
 let phrase =
-  "En voilà une de belle phrase qu'il va falloir retourner dans le dictionnaire afin de répondre à la question";
+  "En voilà une belle phrase qu'il va falloir retourner dans le dictionnaire afin de répondre à la question";
 
 for (word of phrase.split(" ").reverse()) {
   if (dict[word] === undefined) {

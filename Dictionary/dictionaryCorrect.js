@@ -16,4 +16,6 @@ for (caract of phrase) {
     // Si le caract existe déjà dans le dictionnaire, rajouter 1.
   }
 }
+
 console.log(dict);
+

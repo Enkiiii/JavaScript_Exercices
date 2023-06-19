@@ -4,18 +4,19 @@
 const areArraysEquals = (array1, array2) => {
   let b = true;
   if (array1.length != array2.length) {
-    console.log("FALSE");
+    // console.log("FALSE");
+    return false;
   } else {
     for (let i = 0; i < array1.length; i++) {
       if (array1[i] != array2[i]) {
         b = false;
-        console.log("FALSE");
-        return;
+        // console.log("FALSE");
+        return false;
       }
     }
     if (b) {
-      console.log("TRUE");
-      return;
+      // console.log("TRUE");
+      return true;
     }
   }
 }
